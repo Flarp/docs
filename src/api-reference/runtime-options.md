@@ -28,7 +28,7 @@ this access.
 
 ::: danger Using these properties may open security holes.
 
-Allowing prototype properties may allow template authors to execute arbitray code on you the machine where Handlebars is
+Allowing prototype properties may allow template authors to execute arbitrary code on you the machine where Handlebars is
 running. Even with some restrictions in place, an attacker may fabricate Handlebars templates that crash your machine.
 
 Details can be found in the npm-security advisories [755](https://www.npmjs.com/advisories/755),
